@@ -1,7 +1,10 @@
-Jarps_svar = input("Gem? ")
-if Jarps_svar == ("Självklart mister"):
-    print("Good boy")
-elif Jarps_svar == ("nej"):
-    print ("Bad boy")
-else:
-    print('Vänligen ange de vedertagna svaren: "Självklart mister" eller "nej"')
+while True:
+    Jarps_svar = input("Gem? ")
+    if Jarps_svar == ("Självklart mister"):
+        print("Good boy")
+        break
+    elif Jarps_svar == ("nej"):
+        print("Bad boy")
+        break
+    else:
+        print('Vänligen ange de vedertagna svaren: "Självklart mister" eller "nej"')
